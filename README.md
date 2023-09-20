@@ -1,16 +1,5 @@
-# submission_flutter_dasar
+# Project Chatting Apps - M Chat (xixixixi)
 
-A new Flutter project.
+Belajar flutter , ini adalah repo tugas dari submission final dari kelas Belajar Membuat Aplikasi Flutter untuk Pemula
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Silahkan di pelajari jika teman-teman perlu inspirasi atau stuck saat mengerjakan submission
