@@ -7,7 +7,11 @@ import 'package:submission_flutter_dasar/presentation/screen/home_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   setSoftInputMode();
-  runApp(const MyApp());
+  /// lock rotate
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) {
+      runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatelessWidget {
