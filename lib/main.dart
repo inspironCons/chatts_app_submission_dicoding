@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:submission_flutter_dasar/presentation/screen/home_screen.dart';
 
 
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   setSoftInputMode();
   /// lock rotate
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
