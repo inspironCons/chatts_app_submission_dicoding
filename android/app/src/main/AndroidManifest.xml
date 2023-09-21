@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="submission_flutter_dasar"
+        android:label="Terra Chat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

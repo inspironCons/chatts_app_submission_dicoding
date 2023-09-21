@@ -72,7 +72,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
       extendBody: true,
       backgroundColor: Colors.transparent,
       bottomNavigationBar: CurvedNavigationBar(
-        items: const [Icons.message, Icons.people],
+        items: const [Icons.message, Icons.person],
         onTap: (index) {
           setState(() {
             _indexPage = index;

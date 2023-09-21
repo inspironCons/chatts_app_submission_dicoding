@@ -1,18 +1,20 @@
+# run following commands to generate splash screen:
+# flutter clean && flutter pub get && dart run flutter_native_splash:create --path=flutter_native_splash.yaml
+
 flutter_native_splash:
   # This package generates native code to customize Flutter's default white native splash screen
   # with background color and splash image.
   # Customize the parameters below, and run the following command in the terminal:
-  # dart run flutter_native_splash:create
+  # flutter pub run flutter_native_splash:create
   # To restore Flutter's default white splash screen, run the following command in the terminal:
-  # dart run flutter_native_splash:remove
+  # flutter pub run flutter_native_splash:remove
 
   # color or background_image is the only required parameter.  Use color to set the background
   # of your splash screen to a solid color.  Use background_image to set the background of your
   # splash screen to a png image.  This is useful for gradients. The image will be stretch to the
   # size of the app. Only one parameter can be used, color and background_image cannot both be set.
   color: "#E5E5E5"
-  image: assets/images/logo.png
-  android_disable_fullscreen: true
+  image: "assets/images/logo.png"
 
   #background_image: "assets/background.png"
 
@@ -45,7 +47,7 @@ flutter_native_splash:
   # Android 12 handles the splash screen differently than previous versions.  Please visit
   # https://developer.android.com/guide/topics/ui/splash-screen
   # Following are Android 12 specific parameter.
-  # android_12:
+android_12:
   # The image parameter sets the splash screen icon image.  If this parameter is not specified,
   # the app's launcher icon will be used instead.
   # Please note that the splash screen will be clipped to a circle on the center of the screen.
@@ -53,10 +55,10 @@ flutter_native_splash:
   # 640 pixels in diameter.
   # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
   # 768 pixels in diameter.
-  #image: assets/android12splash.png
+#  image: "assets/images/logo.png"
 
   # Splash screen background color.
-  #color: "#42a5f5"
+  color: "#56704E"
 
   # App icon background color.
   #icon_background_color: "#111111"
